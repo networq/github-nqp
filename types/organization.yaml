@@ -1,0 +1,7 @@
+name: organization
+labelPlural: Organizations
+labelSingular: Organization
+
+fields:
+  name:
+    type: string

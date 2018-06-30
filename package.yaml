@@ -1,0 +1,20 @@
+name: networq:github
+description: GitHub types
+license: MIT
+
+dependencies:
+  networq:core: latest
+
+widgets:
+  githubRepositoryProperties:
+    type: networq:github:repository
+    hook: properties
+    label: GitHub properties
+  githubUserProperties:
+    type: networq:github:user
+    hook: properties
+    label: GitHub user
+  githubRepositoryActionProperties:
+    type: networq:github:repository-action
+    hook: properties
+    label: GitHub repository

@@ -1,0 +1,7 @@
+name: repository-link
+labelPlural: Repository links
+labelSingular: Repository link
+
+fields:
+  repository:
+    type: networq:github:repository

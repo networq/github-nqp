@@ -1,0 +1,9 @@
+name: organization
+labelPlural: Organizations
+labelSingular: Organization
+
+fields:
+  organization:
+    type: networq:github:organization
+  name:
+    type: string
